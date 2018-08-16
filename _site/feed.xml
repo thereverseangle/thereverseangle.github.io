@@ -1,2 +1,232 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-07-30T22:38:06+02:00</updated><id>http://0.0.0.0:4000/</id><title type="html">The Reverse Angle</title><subtitle>&quot;Looking at things with a reverse angle&quot;.
-</subtitle><author><name>&lt;Name&gt; &lt;Surname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><entry><title type="html">Test</title><link href="http://0.0.0.0:4000/2018-07-02-test/" rel="alternate" type="text/html" title="Test" /><published>2018-07-02T00:00:00+02:00</published><updated>2018-07-02T00:00:00+02:00</updated><id>http://0.0.0.0:4000/test</id><content type="html" xml:base="http://0.0.0.0:4000/2018-07-02-test/"></content><author><name>author2</name></author><summary type="html"></summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-08-16T14:27:25+02:00</updated><id>http://localhost:4000/</id><title type="html">The Reverse Angle</title><subtitle>&quot;Looking at things with a reverse angle&quot;.
+</subtitle><author><name>Simone Di Cicco, Mattia Tupone</name><email>&lt;mail@domain.tld&gt;</email></author><entry><title type="html">Hashtag is the new Zeitgeist</title><link href="http://localhost:4000/2016-12-02-hashtag-is-the-new-zeitgeist/" rel="alternate" type="text/html" title="Hashtag is the new Zeitgeist" /><published>2016-12-02T00:00:00+01:00</published><updated>2016-12-02T00:00:00+01:00</updated><id>http://localhost:4000/hashtag-is-the-new-zeitgeist</id><content type="html" xml:base="http://localhost:4000/2016-12-02-hashtag-is-the-new-zeitgeist/">&lt;blockquote&gt;
+  &lt;p&gt;Honestly, it was very hard for me to understand how I’d have to publish these data without seem at least bit “partisan”.
+Well, I don’t work for any political party, either the Italian Govern. This is “just” Science.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Twitter analisys for the &lt;strong&gt;Italian Constitutional Referendum&lt;/strong&gt; vote of December, 4th 2016.&lt;/p&gt;
+
+&lt;h1 id=&quot;codebook&quot;&gt;Codebook&lt;/h1&gt;
+
+&lt;p&gt;I made this analisys coding with &lt;strong&gt;R&lt;/strong&gt; and the complete repository is available at my &lt;a href=&quot;https://github.com/ukaoskid/ita-ref-twitter-analisys&quot;&gt;GitHub&lt;/a&gt;
+(don’t be disgusted by my code, I was just pratical). Always on my repository you can find a better detailed Codebook,
+because here I’ll be quite brief just to not write a 20 page book.&lt;/p&gt;
+
+&lt;p&gt;The reform that Italians are called to vote is, shortly, a “&lt;em&gt;Political reform pointing to Senate power reduction, 
+number of Senators reduction, Regional competencies resize, Public administration resize”.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;So, “pleasantries” are done, now the main dish!&lt;/p&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;Twitter data collection for Italian Referendum Vote Day. This study has to be intended for a experimental purpose.&lt;/p&gt;
+
+&lt;h2 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Taking tweets by geolocation ﬁltering and hashtag ﬁltering
+    &lt;ul&gt;
+      &lt;li&gt;Negative opinion &lt;code class=&quot;highlighter-rouge&quot;&gt;#IoVotoNO, #BastaUnNO, #IoDicoNO, #VotaNO&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Positive opinion &lt;code class=&quot;highlighter-rouge&quot;&gt;#IoVotoSI, #BastaUnSI, #IoDicoSI, #VotaSI, #IoVotoSì, #BastaUnSì, #IoDicoSì, #VotaSì&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Geolocation granularity minimum level is Metropolitan City&lt;/li&gt;
+  &lt;li&gt;Positive and negative meaning hastags cannot coexsists in the same tweet&lt;/li&gt;
+  &lt;li&gt;User are grouped simulating one vote&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;output-data-for-yes-and-no&quot;&gt;Output data for YES and NO&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Daily heatmap and total heatmap&lt;/li&gt;
+  &lt;li&gt;Daily trend for Big Area, Geo District and whole Nation&lt;/li&gt;
+  &lt;li&gt;All datasets used for build up charts and heatmap&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;geopolitic-subdivision&quot;&gt;Geopolitic subdivision&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Metropolitan City&lt;/li&gt;
+  &lt;li&gt;Big Area&lt;/li&gt;
+  &lt;li&gt;Geo District&lt;/li&gt;
+  &lt;li&gt;Nation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;subdivision-masterdata&quot;&gt;Subdivision Masterdata&lt;/h2&gt;
+
+&lt;p&gt;Geopolitic subdivision is took from &lt;a href=&quot;http://www.istat.it&quot;&gt;ISTAT&lt;/a&gt; (Italian National Institute of Statistics).
+Population data is referring the last Census survey (2014)&lt;/p&gt;
+
+&lt;h2 id=&quot;available-datasets-after-processing&quot;&gt;Available datasets after processing&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tweets_global&lt;/code&gt; (all the extracted tweets)&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;global_users&lt;/code&gt; (all the users grouped by Geo parameters and willing vote)&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;vote_results&lt;/code&gt; (aggregate by Geo parameters)&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;big_area_results&lt;/code&gt; (aggregate by Big Area)&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;geo_district_results&lt;/code&gt; (aggregate by Geo Disctric)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;extraction-and-data-process-flow&quot;&gt;Extraction and Data process flow&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2016-12-02-hashtag-is-the-new-zeitgeist/img/data_flow_diagram.png&quot; alt=&quot;data_flow_diagram&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Data extraction and process flow&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;R&lt;/strong&gt;, is a very powerful programming language. The very interesting thing is that even if you are “noob” with it,
+you will be capable of doing what you have in mind thanks to the high amount of libraries available and the huge size of
+the developers community. Clearly, if you are already used to code in any OOP language the play is easy. The game can be
+even more easy if you come (or feel confident) with any C-like programming language.&lt;/p&gt;
+
+&lt;p&gt;Basically, I started by extracting separately the Negative and the Positive opinions. It’s a bit curious,
+but before doing this analisys I took for granted a couple of concepts. One of these is “generally people know how to behave
+and post/tweet thoughts on a Social Network”. I was wrong. Totally. But, why? Because when we are talking
+about sharing thoughts through a Social Network we have to consider two or three things, at least:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Being honest/not deceiptive in filling profile data&lt;/li&gt;
+  &lt;li&gt;Being able to convert into very few words what you have in mind&lt;/li&gt;
+  &lt;li&gt;Using, technically, the features of a Social Network, for instance, the &lt;strong&gt;hashtag&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Guys, I know that many of you at this point thinks I’ve been common, but believe me, this is not so banal.
+Up to three weeks ago I would have done the same though, that everyone of us execute the steps I listed above.&lt;/p&gt;
+
+&lt;p&gt;I made this conclusion after my first dataset extraction. When I looked at it I remained quite confused:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;People are putting both the Positive and Negative hashtag in the same tweet&lt;/li&gt;
+  &lt;li&gt;People are twitting one time the Positive and another time the Negative hashtags&lt;/li&gt;
+  &lt;li&gt;Low usage of the mother tongue (many of them are using dialects)&lt;/li&gt;
+  &lt;li&gt;High usage of slangs&lt;/li&gt;
+  &lt;li&gt;High percentage of not-honest/deceiptive profiles, like
+    &lt;ul&gt;
+      &lt;li&gt;In the “Location” field you are expecting to see something like “New York”, but I found things like “Mars”,
+“Informatic Engineer”, “Milky Way”, “Not your business”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So, my first reaction after 30 minutes was to have mistaken all the suppositions. At the very first start I made my plan too easy.
+What an idiot. After realizing that people are not stupid, I understood why being a Data Scientist is hard.
+I tried to put myself in the shoes of an average Twitter user and, out of the blue, here the answers:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Users are not aware of what really is and what value have a hashtag. For them it’s something just “trendy”. &lt;strong&gt;#HeyIHadReallyABadIdea&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;There is not a course that teaches users “how to use a Social Network” or “Social Network for dummies”, and then,
+came on, who will really do it? Social Networks are not cars, you don’t need any drive license (even if in some cases…)&lt;/li&gt;
+  &lt;li&gt;Data Scien… Whaaat?&lt;/li&gt;
+  &lt;li&gt;Generally users ignore the layer of statistics made every single day on their behaviors and ignore also the fact
+that a little innocent sharp (&lt;strong&gt;#&lt;/strong&gt;) can weight like a rock for many topics (like Elections)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I have not gave up. Solution was:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Build up filters to discard tweets with both Positive and Negative meanings&lt;/li&gt;
+  &lt;li&gt;Extract tweets by geo-location filter (provided by Twitter Search API)
+    &lt;ul&gt;
+      &lt;li&gt;Cannot rely on data provided by users&lt;/li&gt;
+      &lt;li&gt;Geo-located tweets are really really few&lt;/li&gt;
+      &lt;li&gt;Twitter doesn’t allow us to have the real user geo-location&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Understand the possibile real location for each user by doing a geographic mean&lt;/li&gt;
+  &lt;li&gt;Understand the frequency of Positive and Negative expressions for each user&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;poll-results&quot;&gt;Poll Results&lt;/h2&gt;
+
+&lt;h3 id=&quot;preface&quot;&gt;Preface&lt;/h3&gt;
+
+&lt;p&gt;The data observation time-frame started from November, 3rd 2016 and ended on November, 30th 2016.
+To make this analisys clear and transparent we have to put some notes on top of the charts, in order to read data in the proper way:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Tweets sample: &lt;strong&gt;166576&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;User sample: &lt;strong&gt;17256&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Italian internet users are the &lt;strong&gt;62%&lt;/strong&gt; of the population (source is &lt;a href=&quot;https://www.statista.com/statistics/262223/number-of-internet-users-in-italy/&quot;&gt;Statista.com&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Only the &lt;strong&gt;11.74%&lt;/strong&gt; (source is &lt;a href=&quot;https://www.statista.com/statistics/569968/distribution-of-social-media-used-italy/&quot;&gt;Statista.com&lt;/a&gt;)
+of the Italian internet users are really active on Twitter. Given that, we can continue in saying that “this is, however,
+a good sample to consider”, but we cannot say that it is representative of the whole nation&lt;/li&gt;
+  &lt;li&gt;Twitter users may not vote in real life&lt;/li&gt;
+  &lt;li&gt;Twitter users may not vote what they apparently made evident&lt;/li&gt;
+  &lt;li&gt;The analisys in topic has an experimental purpose (it is a simple exercise) and it is only representing
+the orientation of the Italian Twitter users&lt;/li&gt;
+  &lt;li&gt;The analisys is not making any kind of propaganda. These are scientific data&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;points-involved-in-the-referendum&quot;&gt;Points involved in the Referendum&lt;/h3&gt;
+
+&lt;p&gt;Unfortunately for non-Italian people, the reform’s original text is in Italian, but a Wikipedia page is present and
+summarizes the purpose also in English:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/52092659/ref/DLAC2613-D.pdf&quot;&gt;Govern official reform text&lt;/a&gt; (only Italian)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Italian_constitutional_referendum,_2016&quot;&gt;Wikipedia Italian consitutional Referendum 2016&lt;/a&gt; (English)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;charts-and-outputs&quot;&gt;Charts and Outputs&lt;/h3&gt;
+
+&lt;h4 id=&quot;heatmap&quot;&gt;Heatmap&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2016-12-02-hashtag-is-the-new-zeitgeist/img/2016-11-30.png&quot; alt=&quot;2016-11-30&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Italian Constitutional Referendum 2016 Heatmap&lt;/p&gt;
+
+&lt;h4 id=&quot;big-area&quot;&gt;Big Area&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2016-12-02-hashtag-is-the-new-zeitgeist/img/2016-11-301.png&quot; alt=&quot;2016-11-30&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Italian Constitutional Referendum 2016 Big Area&lt;/p&gt;
+
+&lt;h4 id=&quot;geo-district&quot;&gt;Geo District&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2016-12-02-hashtag-is-the-new-zeitgeist/img/2016-11-302.png&quot; alt=&quot;2016-11-30&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Italian Constitutional Referendum 2016 Geo District&lt;/p&gt;
+
+&lt;h4 id=&quot;overall&quot;&gt;Overall&lt;/h4&gt;
+
+&lt;h5 id=&quot;rolling-chart&quot;&gt;Rolling Chart&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2016-12-02-hashtag-is-the-new-zeitgeist/img/2016-11-304.png&quot; alt=&quot;2016-11-30&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Legenda:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;YES&lt;/strong&gt;: Cumulative YES vote&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;YES_D&lt;/strong&gt;: Daily YES vote&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;NO&lt;/strong&gt;: Cumulative NO vote&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;NO_D&lt;/strong&gt;: Daily NO vote&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;UD&lt;/strong&gt;: Cumulative UNCLEAR vote&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;UD_D&lt;/strong&gt;: Daily UNCLEAR vote&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;national-pie&quot;&gt;National Pie&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2016-12-02-hashtag-is-the-new-zeitgeist/img/2016-11-305.png&quot; alt=&quot;2016-11-30&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Yes: &lt;strong&gt;26.65%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;No: &lt;strong&gt;62.31%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Unclear: &lt;strong&gt;11.04%&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;twitter-data&quot;&gt;Twitter data&lt;/h4&gt;
+
+&lt;h5 id=&quot;tweets-vs-retweets&quot;&gt;Tweets vs Retweets&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Tweets: &lt;strong&gt;45%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Retweets: &lt;strong&gt;55%&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;possible-no-user-propagation&quot;&gt;Possible NO user propagation&lt;/h5&gt;
+
+&lt;p&gt;Just a note about this information. Obviously the propagation needs a separate study, but I want only to show you the possible “potential” of a tweet&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Possibile NO user propagation: &lt;strong&gt;19.171.959&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Possible YES user propagation: &lt;strong&gt;6.196.789&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>author</name></author><summary type="html">Honestly, it was very hard for me to understand how I’d have to publish these data without seem at least bit “partisan”. Well, I don’t work for any political party, either the Italian Govern. This is “just” Science.</summary></entry></feed>

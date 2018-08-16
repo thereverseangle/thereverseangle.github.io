@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="403a4d7c-d519-41a0-9323-73fd68496338" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/_posts/2016-12-02-hashtag-is-the-new-zeitgeist.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/authors.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/authors.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/body/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/body/sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-07-02-test.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2018-07-02-test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/CHANGELOG/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/CHANGELOG/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/LICENSE/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/NOTICE/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/NOTICE/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/_site/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/about/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/icons/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/icons/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/icons/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/icons/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/icons/icon@0,25x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/icons/icon@0,5x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/icons/icon@0,75x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/icons/icon@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/icons/icon@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/icons/tile-large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/icons/tile-medium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/icons/tile-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/icons/tile-wide.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/ieconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/ieconfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/7.5.0/forms-by-example/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/7.5.0/forms-by-example/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/7.5.1/forms-by-example/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/7.5.1/forms-by-example/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/8.0.0/advanced/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/8.0.0/advanced/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/8.0.0/basics/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/8.0.0/basics/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/8.0.0/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/8.0.0/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/8.0.0/config/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/8.0.0/config/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/8.0.0/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/8.0.0/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/8.0.0/install/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/8.0.0/install/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/8.0.0/migration/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/8.0.0/migration/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/8.0.0/scripts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/8.0.0/scripts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/8.0.0/upgrade/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/8.0.0/upgrade/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/8.0.0/writing/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/8.0.0/writing/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/forms-by-example/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/forms-by-example/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/licenses/Apache-2.0/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/licenses/Apache-2.0/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/licenses/GPL-3.0/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/licenses/GPL-3.0/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/licenses/MIT/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/licenses/MIT/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/licenses/PRO/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/licenses/PRO/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/licenses/W3C/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/licenses/W3C/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/licenses/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/licenses/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/posts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/posts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/redirects.json" beforeDir="false" afterPath="$PROJECT_DIR$/_site/redirects.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_site/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/icon@0,25x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/icon@0,5x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/icon@0,75x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/icon@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/icon@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/tile-large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/tile-medium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/tile-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/tile-wide.png" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-510777082">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="16" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.4" value="5" />
+          <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="LICENSE" value="2" />
+          <entry key="html" value="31" />
+          <entry key="ico" value="1" />
+          <entry key="jpg" value="6" />
+          <entry key="md" value="18" />
+          <entry key="png" value="6" />
+          <entry key="scss" value="1" />
+          <entry key="yml" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="31" />
+          <entry key="Image" value="13" />
+          <entry key="PLAIN_TEXT" value="20" />
+          <entry key="SCSS" value="1" />
+          <entry key="YAML" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="19" />
+          <entry key="md" value="196" />
+          <entry key="yml" value="403" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="19" />
+          <entry key="Markdown" value="78" />
+          <entry key="PLAIN_TEXT" value="118" />
+          <entry key="YAML" value="403" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2016-12-02-hashtag-is-the-new-zeitgeist.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="75">
+                <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_data/authors.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>about</find>
+      <find>documentation</find>
+      <find>4fb1ba</find>
+      <find>defaults</find>
+      <find>.content a:not(.btn)</find>
+      <find>accent_color</find>
+      <find>sidebar-nav-</find>
+      <find>include</find>
+      <find>https://placehold.it/128x128</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/_posts/2018-07-06.md" />
+        <option value="$PROJECT_DIR$/_site/about/index.html" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/_includes/body/nav.html" />
+        <option value="$PROJECT_DIR$/home.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-07-02-test.md" />
+        <option value="$PROJECT_DIR$/_includes/body/sidebar.html" />
+        <option value="$PROJECT_DIR$/_posts/2018-08-11-another-test/2018-08-11-another-test.md" />
+        <option value="$PROJECT_DIR$/_posts/2016-12-02-hashtag-is-the-new-zeitgeist/2016-12-02-hashtag-is-the-new-zeitgeist.md" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/_data/authors.yml" />
+        <option value="$PROJECT_DIR$/_posts/2016-12-02-hashtag-is-the-new-zeitgeist.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/_site/assets/bower_components/fontfaceobserver/package.json" />
+      <path value="$PROJECT_DIR$/_site/assets/bower_components/html5shiv/package.json" />
+      <path value="$PROJECT_DIR$/assets/bower_components/fontfaceobserver/package.json" />
+      <path value="$PROJECT_DIR$/assets/bower_components/html5shiv/package.json" />
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="22" />
+    <option name="width" value="1920" />
+    <option name="height" value="1020" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Code quality toolsCSS</id>
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="thereverseangle.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thereverseangle.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thereverseangle.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thereverseangle.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thereverseangle.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thereverseangle.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thereverseangle.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thereverseangle.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="icons" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript.Templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/icons" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/posts" />
+      <recent name="$PROJECT_DIR$/_posts" />
+      <recent name="$PROJECT_DIR$/_posts/2016-12-02-hashtag-is-the-new-zeitgeist" />
+      <recent name="$PROJECT_DIR$/_posts/2016-12-02-hashtag-is-the-new-zeitgeist/assets" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.clean">
+    <configuration name="build" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="clean" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="clean" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.clean" />
+      <item itemvalue="npm.build" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.clean" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="403a4d7c-d519-41a0-9323-73fd68496338" name="Default Changelist" comment="" />
+      <created>1532983575769</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532983575769</updated>
+      <workItem from="1532983578235" duration="23000" />
+      <workItem from="1533052698231" duration="1623000" />
+      <workItem from="1533060944027" duration="194000" />
+      <workItem from="1533327294959" duration="5320000" />
+      <workItem from="1533383044396" duration="968000" />
+      <workItem from="1533825926553" duration="46000" />
+      <workItem from="1533994835373" duration="381000" />
+      <workItem from="1533995892204" duration="1073000" />
+      <workItem from="1533997880363" duration="1169000" />
+      <workItem from="1534012048516" duration="48000" />
+      <workItem from="1534065219235" duration="923000" />
+      <workItem from="1534150320407" duration="3528000" />
+      <workItem from="1534241579479" duration="1710000" />
+      <workItem from="1534244905520" duration="501000" />
+      <workItem from="1534257801929" duration="1865000" />
+      <workItem from="1534323837390" duration="645000" />
+      <workItem from="1534421134486" duration="538000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="20555000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1920" height="1020" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="npm" order="0" sideWeight="0.5014245" side_tool="true" weight="0.17039403" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4985755" visible="true" weight="0.15282215" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3286638" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.3295129" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3297414" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" anchor="right" id="Terminal" order="3" visible="true" weight="0.32960597" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/_site/LICENSE/index.html" />
+    <entry file="file://$PROJECT_DIR$/_posts/2018-07-06-cazzo.md" />
+    <entry file="file://$PROJECT_DIR$/_site/about/index.html" />
+    <entry file="file://$PROJECT_DIR$/_includes/components/author.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/components/avatar-tag.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/components/link.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/components/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/components/hy-img.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/body/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/not-found.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.md" />
+    <entry file="file://$PROJECT_DIR$/home.md" />
+    <entry file="file://$PROJECT_DIR$/NOTICE.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/posts.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/licenses/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/head/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/my-body.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/sidebar-bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/resume.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/hydejack-8@0,25x.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/example-content-iii.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/icons/icon@0,5x.png" />
+    <entry file="file://$PROJECT_DIR$/assets/icons/icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/icons/oldfavicon.ico" />
+    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/hydejack/_sidebar.pre.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="145" column="2" selection-start-line="145" selection-start-column="2" selection-end-line="145" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="229" column="15" selection-start-line="229" selection-start-column="15" selection-end-line="229" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-08-11-another-test/2018-08-11-another-test.md" />
+    <entry file="file://$PROJECT_DIR$/_includes/body/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/body/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/body/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/components/message.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/base.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/blog.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-07-02-test.md" />
+    <entry file="file://$PROJECT_DIR$/assets/posts/2016-12-02-hashtag-is-the-new-zeitgeist/img/2016-11-30.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/hydejack-8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/default-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-12-02-hashtag-is-the-new-zeitgeist.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="75">
+            <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="838">
+          <caret line="84" column="73" selection-start-line="84" selection-start-column="73" selection-end-line="84" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/authors.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

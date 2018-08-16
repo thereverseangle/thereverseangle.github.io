@@ -40,7 +40,7 @@ logo:                  /assets/icons/icon.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
-  name:                <Name> <Surname>
+  name:                Simone Di Cicco, Mattia Tupone
   email:               <mail@domain.tld>
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
@@ -69,13 +69,13 @@ paginate_path:         /page-:num/
 # ========================================================================================
 
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
-accent_color:          rgb(79,177,186)
+# accent_image:          /assets/img/sidebar-bg.jpg
+accent_color:          rgb(2, 145, 86)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
-theme_color:           rgb(25,55,71)
+theme_color:           rgb(39, 44, 48)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
@@ -91,31 +91,12 @@ font_heading:          Roboto, sans-serif
 
 defaults:
   - scope:
-      path:            hyde
+      path:            home
     values:
-      accent_color:    rgb(38,139,210)
+      accent_color:    rgb(3, 119, 71)
       accent_image:
-        background:    rgb(32,32,32)
+        background:    rgb(3, 119, 71)
         overlay:       false
-
-  # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
-  # but we want them to be `WebPage`s:
-  - scope:
-      type:            projects
-    values:
-      seo:
-        type:          WebPage
-  - scope:
-      type:            featured_categories
-    values:
-      seo:
-        type:          WebPage
-  - scope:
-      type:            featured_tags
-    values:
-      seo:
-        type:          WebPage
-
 
 # 3rd Party Integrations
 # ----------------------------------------------------------------------------------------
@@ -219,7 +200,7 @@ exclude:
   - webpack.config.js
   - "*.gemspec"
 include:
-  - LICENSE.md
+  - LICENSE.md.md
 
 
 # Plugins

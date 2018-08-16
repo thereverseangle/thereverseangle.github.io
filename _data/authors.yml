@@ -8,7 +8,8 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:
-    Siamo due froci.
+    We're two young guys working in IT who just like to see things through a different angle. Meanwhile you are looking
+    the same thing, it could possibily be the opposite just changing your point of view.
 
   # This photo will be used in the about section
   picture:
@@ -23,7 +24,7 @@ author1:
   # Rearrange to change the order in which they appear
   social:
     github:          thereverseangle
-    #twitter:         <username>
+    # twitter:         <username>
     # email:           <mail@domain.tld>
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
